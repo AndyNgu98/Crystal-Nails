@@ -1,0 +1,84 @@
+.btn-unique {
+    background-color: #917C57 !important; }
+    .btn-unique:hover {
+      background-color: #FFB730 !important; }
+    .btn-unique:active, .btn-unique:focus {
+      background-color: #00E676 !important; }
+  
+  input:focus, textarea:focus {
+    border-bottom: 1px solid #FFB730 !important;
+    box-shadow: 0 1px 0 0 #FFB730 !important; }
+  
+  input:active, textarea:active {
+    color: #917C57 !important; }
+  
+  input:focus:invalid, textarea:focus:invalid {
+    border-bottom: 2px solid var(--danger) !important; }
+  
+  input[type=text] {
+    color: inherit !important; }
+  
+  label.active {
+    color: #917C57 !important; }
+  
+  section#contact {
+    padding-bottom: 3rem; }
+
+    footer {
+        padding-bottom: 4rem;
+        padding-top: 2rem;
+        color: inherit; }
+      
+      i {
+        padding: 0 .5rem;
+        color: #917C57; }
+      
+      .fa-facebook-official {
+        margin-top: 10px; }
+      
+      a .fa-facebook-official {
+        color: #3B5998; }
+      
+      a .fa-instagram {
+        background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; }
+      
+      #form-message {
+        color: inherit;
+        font-size: inherit; }
+
+        #message-field {
+          margin-top: 1rem;
+          color: inherit;
+          font-size: inherit;
+          width: 100%;
+          border: transparent;
+          border-bottom: 2px solid #917C57;
+          -webkit-box-shadow: none;
+           -moz-box-shadow: none;
+           box-shadow: none;
+           outline: none;
+        }
+        
+
+        #email-field {
+          margin-top: 1rem;
+          border: transparent;
+          border-bottom: 2px solid #917C57;
+        }
+
+        #phone-field {
+          margin-top: 1rem;
+          border: transparent;
+          border-bottom: 2px solid #917C57;
+        }
+
+        #name-field {
+          margin-top: 1rem;
+          border: transparent;
+          border-bottom: 2px solid #917C57;
+        }
+
+        

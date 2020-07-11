@@ -1,0 +1,59 @@
+.priceList:first-of-type {
+	padding-top: 5rem;
+}
+
+.priceList:last-of-type {
+   margin-bottom: 5rem;
+}
+
+.table th, .table td {
+   padding: 8px;
+}
+
+.table tr td {
+   font-size: 1rem;
+   text-transform: capitalize;
+}
+
+.table-title {
+   margin-bottom: 0px;
+   border: none;
+
+   tr td {
+	   border: none;
+	   font-size: 1.1rem;
+	   font-weight: 400;
+	   padding-top: 2rem;
+   }
+}
+
+.table td + td {
+   text-align: right;
+}
+
+.price-blank {
+   background-color: #e5ebed;
+}
+
+.right {
+	text-align: right;
+}
+
+@media (max-width: 575px) {
+
+	.priceList {
+		padding: 1rem 1rem;
+	}
+
+	.service-time {
+		display: none;
+	}
+ 
+	.table td + td {
+		font-size: 0.9rem;
+	}
+ 
+	.pricingHeader {
+		background-position: right;
+	}
+}

@@ -1,0 +1,42 @@
+// Welcome
+.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url(../../images/welcome-2.jpeg) no-repeat fixed ;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    text-transform: uppercase!important;
+    opacity: 0.9;
+    
+    
+}
+
+
+
+.masthead hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.masthead h1  {
+    color: white;
+    font-size: 4rem;
+}
+
+.masthead h3  {
+    color: white;
+    font-size: 4rem;
+}
+
+.resize {
+    height: 700px;
+}
+
+.masthead p {
+    color: white;
+}
