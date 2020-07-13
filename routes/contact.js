@@ -58,7 +58,7 @@ router.post('/', function(req, res, next) {
     pool.getConnection( (err, connection) => {
 
         //user check if already exist
-        connection.query(sqlQueryUserLookUp, person.email, (err, result) => {
+        pool.query(sqlQueryUserLookUp, person.email, (err, result) => {
             if(err) return console.error(err.message);
 
             //IF user doesnt exist 
