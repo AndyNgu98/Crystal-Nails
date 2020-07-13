@@ -66,14 +66,14 @@ router.post('/', function(req, res, next) {
 
                 //create user
                 const user = { name: person.name, email: person.email, number: person.phone }
-                connection.query(sqlInsert(`users`), user, (err, result) => { 
+                pool.query(sqlInsert(`users`), user, (err, result) => { 
                     if(err) {
                         console.log(err);
                     } else { 
 
                         //then create message
                         const message = { id: result.insertId, email: person.email, message: person.message }
-                        connection.query(sqlInsert(`messages`), message, (err, result ) => {
+                        pool.query(sqlInsert(`messages`), message, (err, result ) => {
                             if(err) return console.error(err.message);
                             console.log(result)
                         })
@@ -85,7 +85,7 @@ router.post('/', function(req, res, next) {
                 // if user exists insert only message
                 // create message
                 const message = { id: result[0].id, email: result[0].email, message: person.message }
-                connection.query(sqlInsert(`messages`), message, (err, result ) => {
+                pool.query(sqlInsert(`messages`), message, (err, result ) => {
                     if(err) return console.error(err.message);
                     console.log(result)
 
