@@ -93,7 +93,7 @@ router.post('/', function(req, res, next) {
                 })
             }
         });
-        connection.release();
+        // connection.release();
     });
 
     console.log(req.body)
