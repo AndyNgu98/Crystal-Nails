@@ -45,7 +45,7 @@ base.button.addEventListener('click', () => { //ON SUBMIT DATA WILL BE TURNED IN
                 if (response.status = 200) {
                     const values = Object.values(base)
                     values.forEach(input => input.value = "" )
-                    document.querySelector('#success-message').innerHTML = 'Thank you for booking with Crystal Nails';
+                    document.querySelector('#success-message').innerHTML = 'Thank you we have recieved your booking with Crystal Nails please give up to 12hrs for confirmation.';
                 } else {
                     console.log("error")
                 }
