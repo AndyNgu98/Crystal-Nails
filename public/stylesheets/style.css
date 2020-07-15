@@ -232,7 +232,6 @@ section {
   font-weight: bolder;
   text-transform: uppercase !important;
   opacity: 0.9;
-  object-fit: cover;
 }
 
 .masthead hr {
@@ -420,9 +419,5 @@ a .fa-instagram {
 
 .copyright__span {
   color: grey;
-}
-
-.navbar-toggler {
-  border-color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
