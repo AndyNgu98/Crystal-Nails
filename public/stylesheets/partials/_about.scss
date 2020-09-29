@@ -1,30 +1,27 @@
-.jumbotron {
-    background-color: transparent;
-    padding: 8rem 0;  
-    margin-top: 0; 
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
+
+
+#jumbo-color {
+    background-color: #917C57;
 }
 
 
-#about p {
-    
- font-size: 1.2rem;
-}
 
-.space {
-    padding-top: 10vh;
-    background-color: white;
-}
+@media only screen and (max-width: 768px) {
+    // Mobile-specific CSS here
+    img#pink-nails {
+        display: none;
 
-.bg-about {
-    background-color: transparent;
-    padding-bottom: 10vh;
+    }
     
 }
 
-
-section {
-    padding: 8rem 0; 
-}
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
   
+    
